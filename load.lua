@@ -9,6 +9,7 @@ end
 
 GetM("main.lua")
 end)
-if not success then
+if err then
   error(err,2)
+  err = nil
 end 
